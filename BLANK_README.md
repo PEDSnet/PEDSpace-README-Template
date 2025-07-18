@@ -22,7 +22,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- Uncomment line below  -->
+<!-- Edit and uncomment the line below for a product screenshot that links to your site. -->
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
