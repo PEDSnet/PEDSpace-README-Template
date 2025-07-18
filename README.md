@@ -51,4 +51,4 @@ Below are the minimum submission guidelines:
 
 [^3]: Just remember to `.gitignore` your library (e.g. `echo renv/ >> .gitignore`). This repo already has an extensive coverage of ignored files and directories.
 
-[^4]: If you are submitting a package **without** an `renv.lock` file, you can use `utils::sessionInfo()` or (preferably) [`sessioninfo::session_info(pkgs = "attached"`](https://sessioninfo.r-lib.org/reference/session_info.html) from [the *sessioninfo* package](https://sessioninfo.r-lib.org/index.html#installation) to generate an output to include under the [Built With](BLANK_TEMPLATE.md#built-with) section of the template.
+[^4]: If you are submitting a package **without** an `renv.lock` file, you can use `utils::sessionInfo()` or (preferably) [`sessioninfo::session_info(pkgs = "attached")`](https://sessioninfo.r-lib.org/reference/session_info.html) from [the *sessioninfo* package](https://sessioninfo.r-lib.org/index.html#installation) to generate an output to include under the [Built With](BLANK_TEMPLATE.md#built-with) section of the template.
