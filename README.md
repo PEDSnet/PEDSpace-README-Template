@@ -25,7 +25,7 @@ To generate the `renv.lock` file, call the following line within your project di
 renv::snapshot()
 ```
 
-This repo contains a GitHub workflow that will produce a top-level summary of the libraries used and insert it into the [README.md](BLANK_README.md#built-with) as a list of bullet points.
+This repo contains a GitHub workflow that will produce a top-level summary of the libraries used and insert it into the [README.md](BLANK_README.md#built-with) as a list of bullet points. The workflow will only work if `renv.lock` is placed in the **root directory** of the template repo.
 
 To restore the R environment:
 
