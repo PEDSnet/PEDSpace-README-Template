@@ -53,6 +53,8 @@ renv::restore()
 
 ### Installation
 
+<!-- Example installation steps; please replace with your own or delete the section if not necessary. -->
+
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
