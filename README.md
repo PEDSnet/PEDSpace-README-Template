@@ -34,7 +34,7 @@ renv::restore()
 ```
 
 
-[^1]: Click on the "Use this Template" button in the corner of the window to create a repository using this template, and then clone this repository locally to edit. I recommend [VSCode](https://code.visualstudio.com/) with the [Markdown Preview Enanched extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced), but you can also use a plaintext text editor.
+[^1]: Click on the "Use this Template" button in the corner of the page to create a repository using this template, and then clone this repository locally to edit. I recommend [VSCode](https://code.visualstudio.com/) with the [Markdown Preview Enanched extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced), but you can also use a plaintext text editor.
 
 [^2]: Swap out `images/screenshot.png` with a relevant image for your deposit (optional) and uncomment and edit lines 25 and 26 in to display it.
 
