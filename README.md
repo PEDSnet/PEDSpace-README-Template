@@ -4,7 +4,7 @@
 PEDSnet Reusable Code Repo Template is a blank GitHub repository and README template for reusable code submitted to [PEDSpace](https://pedsnet.org/metadata/home) for ingestion. The [BLANK_README](BLANK_README.md) template is stripped-down fork of the [Best-README-Template](https://github.com/othneildrew/Best-README-Template). We ask that you minimally include the information outlined in this document. 
 
 ## How To Use This Template
-1. Fork this repository in GitHub under the PEDSnet organization[^1].
+1. "Use this Template" in GitHub under the PEDSnet organization[^1].
 2. Open [`BLANK_README.md`](BLANK_README.md).
 3. Change or add any images that best describe your project[^2].
 4. Find and replace the following words `repo_name`, `project_title`, `project_description`, `project_license`.
@@ -34,7 +34,7 @@ renv::restore()
 ```
 
 
-[^1]: Clone this repository locally to edit. I recommend [VSCode](https://code.visualstudio.com/) with the [Markdown Preview Enanched extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced), but you can also use a plaintext text editor.
+[^1]: Click on the "Use this Template" button in the corner of the window to create a repository using this template, and then clone this repository locally to edit. I recommend [VSCode](https://code.visualstudio.com/) with the [Markdown Preview Enanched extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced), but you can also use a plaintext text editor.
 
 [^2]: Swap out `images/screenshot.png` with a relevant image for your deposit (optional) and uncomment and edit lines 25 and 26 in to display it.
 
