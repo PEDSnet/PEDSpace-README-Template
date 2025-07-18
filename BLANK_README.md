@@ -32,7 +32,7 @@
 We use `renv` for dependency management. The following packages and versions were used:
 
 <!-- DEPENDENCIES_START -->
-*DO NOT ALTER! Dependencies will be automatically updated here from renv.lock*
+*DO NOT ALTER (unless manually pasting session info)! Dependencies will be automatically updated here from renv.lock*
 <!-- DEPENDENCIES_END -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -53,7 +53,7 @@ renv::restore()
 
 ### Installation
 
-<!-- Example installation steps; please replace with your own or delete the section if not necessary. -->
+> **Note:** The installation section below is an example. Please edit it to reflect the specific installation steps for your project.
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -73,6 +73,12 @@ renv::restore()
    git remote set-url origin PEDSnet/repo_name
    git remote -v # confirm the changes
    ```
+
+### Developers (Optional)
+
+You can include a list of contributors or developers here to credit those involved in the project. For example:
+- **Name**: Role (e.g., Lead Developer)
+- **Name**: Role (e.g., Contributor)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
