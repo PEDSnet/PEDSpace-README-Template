@@ -29,8 +29,6 @@
 
 ### Built With
 
-We use `renv` for dependency management. The following packages and versions were used:
-
 <!-- DEPENDENCIES_START -->
 *DO NOT ALTER (unless manually pasting session info)! Dependencies will be automatically updated here from renv.lock*
 <!-- DEPENDENCIES_END -->
