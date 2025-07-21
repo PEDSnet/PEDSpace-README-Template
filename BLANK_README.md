@@ -39,38 +39,29 @@
 ## Getting Started
 
 
-
-### Prerequisites
-
-
-To reproduce this environment, run `git clone https://github.com/PEDSnet/repo_name.git` and restore from `renv.lock`:
-
-```R
-renv::restore()
-```
-
 ### Installation
 
 > **Note:** The installation section below is an example. Please edit it to reflect the specific installation steps for your project.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/PEDSnet/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin PEDSnet/repo_name
-   git remote -v # confirm the changes
-   ```
+1. Create a new repo using "Use this template."
+2. Clone the repo:
+```sh
+git clone https://github.com/PEDSnet/repo_name.git
+```
+3. Migrate codebase (including `renv.lock`) into project repository base directory:
+```sh
+# (Optional) if you haven't already, generate renv.lock:
+cd /path/to/project/directory
+Rscript -e "renv::snapshot()"
+
+# Copy into cloned repo_name repo:
+cd /path/to/repo_name
+cp -R /path/to/project/directory/* .
+```
+4. Setup R environment:
+```bash
+Rscript -e "renv::restore()"
+```
 
 ### Developers (Optional)
 
