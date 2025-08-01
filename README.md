@@ -19,13 +19,13 @@ PEDSnet Reusable Code Repo Template is a blank GitHub repository and README temp
 
 ### Reproducibility
 
-If you are doing ongoing R development work, we strongly encourage that you do so using [`renv`](https://rstudio.github.io/renv/index.html) e.g. `renv::init()` and `renv::snapshot()`. This will make not only documentation easier but can also improve your development workflow in the long run by ensuring version consistency and improving reproducibility.
+If you are doing ongoing R development work, we strongly encourage that you do so using [`renv`](https://rstudio.github.io/renv/index.html) e.g. [`renv::init()`](https://rstudio.github.io/renv/reference/init.html) and [`renv::snapshot()`](https://rstudio.github.io/renv/reference/snapshot.html). This will make not only documentation easier but can also improve your development workflow in the long run by ensuring version consistency and improving reproducibility.
 
 Below are the minimum submission guidelines:
 
 #### Required
 - **Code Repositories (not packaged):**
-  - Must include an `renv.lock` file generated from the most recent R environment.
+  - Must include an `renv.lock` file generated from the most up-to-date R environment capabale of successfully executing the code.
 - **Packaged Repositories:**
   - `renv.lock` file is optional but must document:
     - R version used for development.
@@ -35,11 +35,11 @@ Below are the minimum submission guidelines:
 - Use an [`renv` project library](https://rstudio.github.io/renv/reference/init.html) for version consistency and improved development workflow.
 
 #### Steps:
-1. Generate the `renv.lock` file:
+1. Make sure that the project root is the working directory of your R session e.g `setwd('/path/to/project/dir')`.
+2. Generate the `renv.lock` file:
    ```R
    renv::snapshot()
    ```
-2. Place the `renv.lock` file in the root directory of the repository.
 3. To restore the R environment:
    ```R
    renv::restore()
